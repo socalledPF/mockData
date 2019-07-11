@@ -1,11 +1,227 @@
 {
-  "posts.json": [
-    {
-      "id": 1,
-      "title": "hello"
+  "userAuthorize/getAllCities.json":  {
+    "body": {
+        "data": [
+            {
+                "name": "宁夏",
+                "fullcode": "0064",
+                "level": "1",
+                "sub": [
+                    {
+                        "name": "石嘴山",
+                        "level": "2",
+                        "fullcode": "00648720",
+                        "sub": []
+                    },
+                    {
+                        "name": "银川",
+                        "fullcode": "00648710",
+                        "level": "2",
+                        "sub": []
+                    }
+                ]
+            }
+        ]
+    },
+    "header": {
+        "code": 200,
+        "message": "success"
     }
-  ],
-  "profile": {
-    "name": "typicode"
+},
+"userAuthorize/getTypeByCities.json": {
+  "body": {
+      "data": [
+          {
+              "website": "housingfund_wuxi",
+              "name": "无锡公积金",
+              "tabs": [
+                  {
+                      "id": "6195aca0cdea4287ab8bb608a4e103a5",
+                      "website": "housingfund_wuxi",
+                      "type": "auth_auto",
+                      "sort": "003230200000-1203",
+                      "descript": "身份证登录",
+                      "field": [
+                          {
+                              "id": "620fb54cb0ce42d6be90462f0692a8f4",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1203",
+                              "descript": "身份证登录",
+                              "parameter_name": "姓名",
+                              "parameter_code": "name",
+                              "parameter_message": "请输入姓名",
+                              "parameter_err_message": "",
+                              "parameter_type": "text",
+                              "orderby": 1,
+                              "status": 1
+                          },
+                          {
+                              "id": "17f8a553b27a4eab9cfde97025a6ea30",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1203",
+                              "descript": "身份证登录",
+                              "parameter_name": "身份证",
+                              "parameter_code": "id_card_num",
+                              "parameter_message": "请输入身份证",
+                              "parameter_err_message": "",
+                              "parameter_type": "text",
+                              "orderby": 2,
+                              "status": 1
+                          },
+                          {
+                              "id": "6cdb8d91353a47419bf84ce4a1a3bf48",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1203",
+                              "descript": "身份证登录",
+                              "parameter_name": "手机号",
+                              "parameter_code": "cell_phone_num",
+                              "parameter_message": "请输入手机号",
+                              "parameter_err_message": "",
+                              "parameter_type": "text",
+                              "orderby": 3,
+                              "status": 1
+                          },
+                          {
+                              "id": "97c4dd7918bd4cb09af9bd37fdd9e941",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1203",
+                              "descript": "身份证登录",
+                              "parameter_name": "密码",
+                              "parameter_code": "password",
+                              "parameter_message": "请输入密码",
+                              "parameter_err_message": "",
+                              "parameter_type": "password",
+                              "orderby": 4,
+                              "status": 1
+                          }
+                      ]
+                  },
+                  {
+                      "id": "47c2198e35d5431e9516d7223a39bfd6",
+                      "website": "housingfund_wuxi",
+                      "type": "auth_auto",
+                      "sort": "003230200000-1204",
+                      "descript": "公积金账号登录",
+                      "field": [
+                          {
+                              "id": "eb72c7b94326416187fc8f131391620e",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1204",
+                              "descript": "公积金账号登录",
+                              "parameter_name": "姓名",
+                              "parameter_code": "name",
+                              "parameter_message": "请输入姓名",
+                              "parameter_err_message": "",
+                              "parameter_type": "text",
+                              "orderby": 1,
+                              "status": 1
+                          },
+                          {
+                              "id": "dcf83f0fb46043e6ba3093554c7bbd0b",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1204",
+                              "descript": "公积金账号登录",
+                              "parameter_name": "身份证",
+                              "parameter_code": "id_card_num",
+                              "parameter_message": "请输入身份证",
+                              "parameter_err_message": "",
+                              "parameter_type": "text",
+                              "orderby": 2,
+                              "status": 1
+                          },
+                          {
+                              "id": "914d5b38b2bc41d480715781f6e2753a",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1204",
+                              "descript": "公积金账号登录",
+                              "parameter_name": "手机号",
+                              "parameter_code": "cell_phone_num",
+                              "parameter_message": "请输入手机号",
+                              "parameter_err_message": "",
+                              "parameter_type": "text",
+                              "orderby": 3,
+                              "status": 1
+                          },
+                          {
+                              "id": "5451f6c11f3749ae9e9e8e715c72f0cd",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1204",
+                              "descript": "公积金账号登录",
+                              "parameter_name": "公积金",
+                              "parameter_code": "fund_account",
+                              "parameter_message": "请输入公积金账号",
+                              "parameter_err_message": "",
+                              "parameter_type": "text",
+                              "orderby": 4,
+                              "status": 1
+                          },
+                          {
+                              "id": "b9fc435815fa4ef8884ab20ee412f163",
+                              "website": "housingfund_wuxi",
+                              "type": "auth_auto",
+                              "sort": "003230200000-1204",
+                              "descript": "公积金账号登录",
+                              "parameter_name": "密码",
+                              "parameter_code": "password",
+                              "parameter_message": "请输入密码",
+                              "parameter_err_message": "",
+                              "parameter_type": "password",
+                              "orderby": 5,
+                              "status": 1
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  },
+  "header": {
+      "code": 200,
+      "message": "success"
   }
+},
+"userAuthorize/submitHouseFund.json":
+{
+    "body": {
+        "gjjToken" : "asasas"
+    },
+    "header": {
+        "code": 200,
+        "message": "success"
+    }
+},
+"userAuthorize/submitHouseCaptcha.json": {
+  "body": {
+       
+  },
+  "header": {
+      "code": 200,
+      "message": "success"
+  }
+},
+"userAuthorize/submitApplyForSocoal.json": {
+  "body": {
+      "token" : "asasas"
+  },
+  "header": {
+      "code": 200,
+      "message": "success"
+  }
+},
+"userAuthorize/submitCaptcha.json": 
+{
+    "body": {},
+    "header": {
+        "code": 200,
+        "message": "success"
+    }
+}
 }
